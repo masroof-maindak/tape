@@ -1,5 +1,5 @@
 CC = clang
-CFLAGS = -Wall -Wextra -pedantic
+CFLAGS = -Wall -Wextra -pedantic -std=c99
 RELEASE_FLAGS = -march=native -O3
 DEBUG_FLAGS = -g3 -O0
 
